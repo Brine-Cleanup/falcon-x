@@ -7,9 +7,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
   rForm: FormGroup;
-  post: any;                     // A property for our submitted form
+  post: any;
   fname = '';
   lname = '';
   email = '';

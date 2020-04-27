@@ -3,13 +3,12 @@ import { NgModule } from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SlideshowLoginComponent } from './slideshow-login/slideshow-login.component';
+
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SlideshowLoginComponent
   ],
   imports: [
     BrowserModule,
