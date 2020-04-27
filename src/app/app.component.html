@@ -1,0 +1,31 @@
+<div class="form-wrapper" *ngIf="!fname; else forminfo">
+  <form [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)">
+    <div class="form-container">
+      <div class="row columns">
+        <h1>CREAT ACCOUNT</h1>        
+        <input placeholder="FIRST NAME" type="text" formControlName="name">        
+        <div class="alert" *ngIf="!rForm.controls['fname'].valid && rForm.controls['fname'].touched">This field should atleast contain 5 characters</div>
+        <input type="text" placeholder="LAST NAME" formControlName="lname">        
+        <div class="alert" *ngIf="!rForm.controls['lname'].valid && rForm.controls['lname'].touched">This field cannot be empty</div>
+        <input type="email" placeholder="Email-ID" formControlName="email">
+        <input type="password" placeholder="PASSWORD" formControlName="pass">
+        <input type="password" placeholder="CONFIRM PASSWORD" formControlName="conpass">
+        <input type="text" placeholder="Date-of-Birth(dd/mm/yyyy)" formControlName="dob">
+        <input type="checkbox" name="validate" formControlName="validate" value="1"> I agree to abide by Falcon's Terms of Service and its Privacy Policy
+        <input type="submit" class="but" value="CREATE ACCOUNT" [disabled]="!rForm.valid">
+      </div>
+    </div>
+  </form>
+</div>
+
+
+<ng-template #forminfo>
+  <div class="form-container">
+    <div class="row columns">
+        <h1>{{ fname }}</h1>
+
+        <p>{{ lname }}</p>
+    </div>
+  </div>
+</ng-template>
+
