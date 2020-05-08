@@ -1,55 +1,14 @@
-form-wrapper{
-    
-    max-width: 100%;
+.container{
+    display: flex;
 }
-.form-container {
-    display:block;
-    width:90%;
-    padding:2em;
-    margin: 2em auto;
-    background:#fff;
-    border: gray solid;
-    max-width: 40%;
-    text-align: center;
-    position: absolute;
-    right: 0.5%;
-    
+.home{
+    background-image: url("../../gallery/person.jpg");
+    width: 1044px;
+    height: 90vh;
+    flex-grow: 8;
 }
-
-.alert {
-    background: #f2edda;
-    padding: 7px;
-    font-size: .9em;
-    margin-bottom: 20px;
-    display: inline-block;
-    animation: 2s alertAnim forwards;
-}
-
-.but {
-    margin-top: 3rem;
-    background-color: goldenrod;
-    border: solid;
-    width: 50%;
-    text-align: center;    
-}
-.but :hover{
-    background-color: goldenrod;
-}
-h1 {
-    margin-bottom: 2rem;
-    font-weight:bold;
-    font-family:'Muli';
-    font-size: 2em;
-}
-
-
-@keyframes alertAnim {
-    from {
-        opacity:0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity:1;
-        transform: translateY(0);
-    }
+.create_account{
+    flex-grow: 1;
+    width: 100%;
+    float: right;
 }
