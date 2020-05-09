@@ -1,0 +1,68 @@
+
+<section class="main">
+    
+    <section class="hero">
+        <img class="hero-image" src="../../assets/hero-bg.png" alt="hero-image">
+        <div class="hero-content">
+            <h1>Connect like <br> never before</h1>
+            <div class="wrapper">
+                <div class="link_wrapper">
+                  <a href="#">Sign Up</a>
+                  <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                      <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                    </svg>
+                  </div>
+                </div>
+                
+              </div>
+        </div>
+    </section>
+
+
+    <section class="mid">
+        <ngb-carousel [showNavigationArrows]="true" 
+        [showNavigationIndicators]="false"
+        interval="8000"
+        [keyboard]="true"
+        [pauseOnHover]="false"
+        [wrap]="true"
+        [activeId]="'secondSlide'">
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img src="../../assets/car-1.png" alt="Angular Carousel 1">
+              </div>
+              <div class="carousel-caption">
+                <h3>Title Goes Here</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img src="../../assets/car-2.png" alt="Angular Carousel 2">
+              </div>
+              <div class="carousel-caption">
+                <h3>Title Goes Here</h3>
+                <p>Consectetur tortor volutpat pretium.</p>
+              </div>
+            </ng-template>
+          </ngb-carousel>
+    </section>
+
+    <section class="cards">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+            </div>
+          </div>
+    </section>
+
+</section>
