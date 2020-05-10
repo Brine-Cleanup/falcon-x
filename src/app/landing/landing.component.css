@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&display=swap');
 
-*{
-    margin: 0;
-    padding: 0; 
-}
 
 .hero{
     height: 100vh;
@@ -102,7 +98,6 @@
 
 .mid{
     margin-top: 10%;
-    background-color: black;
 }
 
 ngb-carousel {
@@ -152,9 +147,15 @@ ngb-carousel {
 }
 
 .cards{
-    margin-top: 15%
+    margin-top: 7.5%;
+    margin-bottom: 30px;
 }
 
 .col-sm{
-    margin-left: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    height: 100px;
+    -webkit-box-shadow: 4px 5px 9px 1px rgba(0,0,0,0.67); 
+    box-shadow: 4px 5px 9px 1px rgba(0,0,0,0.67);
 }

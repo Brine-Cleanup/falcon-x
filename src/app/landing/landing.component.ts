@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
 
 
 @Component({
@@ -12,7 +13,8 @@ export class LandingComponent implements OnInit {
 
   }  
  
-  ngOnInit(){
+  ngOnInit() {
+    AOS.init();
   }
 
 }
