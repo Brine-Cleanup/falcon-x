@@ -1,0 +1,27 @@
+.signup{
+    width: 100%;
+    
+  }
+  .container{
+   
+    margin: auto;
+  }
+  .col1{
+    height: 100vh;
+    width: 100%;
+    
+    background-image: url("../../assets/signup.JPG");
+  }
+  image{
+  
+  }
+  .signup-form{
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 100px;
+    
+    
+  }
+  .button{
+    width: 100px;
+  }

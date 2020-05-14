@@ -7,7 +7,8 @@ import { CreateAccountComponent } from './create-account/create-account.componen
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { LandingComponent } from './landing/landing.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { HomeComponent } from './home/home.component';  
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';  
 
 
 
@@ -18,6 +19,7 @@ import { HomeComponent } from './home/home.component';
     NavBarComponent,
     LandingComponent,
     HomeComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
