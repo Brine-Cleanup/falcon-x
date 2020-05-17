@@ -1,0 +1,19 @@
+.side-nav{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+.side-nav-items{
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.dash{
+    float: center;
+    width: 80%;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    
+}
